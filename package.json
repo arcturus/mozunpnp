@@ -1,0 +1,20 @@
+{
+  "name": "mozunpnp",
+  "version": "1.0.0",
+  "description": "npm client to register and read records for Mozilla Connected Devices UPNP server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upnp",
+    "client",
+    "mozilla"
+  ],
+  "author": "Francisco Jordano <francisco@jordano.es>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "internal-ip": "^1.2.0",
+    "request": "^2.79.0"
+  }
+}
