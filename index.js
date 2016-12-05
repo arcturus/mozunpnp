@@ -49,6 +49,7 @@ MozUNPNP.prototype.registerOnce = function(client, message) {
 
 MozUNPNP.prototype.register = function(client, message) {
   const self = this;
+  this.registerOnce(client, message);
   this.intervalId = setInterval(() => {
     self.registerOnce(client, message);
   }, this.config.registerInterval);
